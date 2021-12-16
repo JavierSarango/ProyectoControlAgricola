@@ -11,6 +11,7 @@ package Model;
  */
 public class Granja {
     private Long id;
+    private Long c;
 
     public Long getId() {
         return id;
