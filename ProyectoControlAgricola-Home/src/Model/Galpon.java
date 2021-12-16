@@ -10,6 +10,7 @@ package Model;
  */
 public class Galpon {
     private Long id;
+    private int nro_Pollos;
 
     public Long getId() {
         return id;
@@ -17,5 +18,13 @@ public class Galpon {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public int getNro_Pollos() {
+        return nro_Pollos;
+    }
+
+    public void setNro_Pollos(int nro_Pollos) {
+        this.nro_Pollos = nro_Pollos;
     }
 }
